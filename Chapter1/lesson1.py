@@ -28,3 +28,9 @@ if __name__ == '__main__':
     russian_web_popular = russian_web_part * web_popular
     print(russian_web_popular)
     print(type(russian_web_popular))
+
+    russian_web_part2 = int(russian_web_part)
+    web_popular2 = float(web_popular)
+
+    print(russian_web_part2)
+    print(web_popular2)
