@@ -21,3 +21,10 @@ if __name__ == '__main__':
     print(chinese_websites / japanese_websites)
 
     print(type(english))
+
+    russian_web_part = 0.061
+    web_popular = 10000000
+
+    russian_web_popular = russian_web_part * web_popular
+    print(russian_web_popular)
+    print(type(russian_web_popular))
