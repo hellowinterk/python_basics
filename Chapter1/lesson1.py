@@ -15,3 +15,7 @@ if __name__ == '__main__':
     chinese = 908.7
     top3_total = english + russian + german
     print(chinese - top3_total)
+
+    japanese_websites = 0.045
+    chinese_websites = 0.043
+    print(chinese_websites / japanese_websites)
