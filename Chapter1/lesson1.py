@@ -19,3 +19,5 @@ if __name__ == '__main__':
     japanese_websites = 0.045
     chinese_websites = 0.043
     print(chinese_websites / japanese_websites)
+
+    print(type(english))
