@@ -107,6 +107,30 @@ print('------------------------------------------------------------------')
 for element in data:
 	print('{: <16} | {: >16.2f} | {: >14.2f} | {: >12.2f}'.format(element[0], element[1], element [2], element[3]))
 
+sum_emojixpress = 0
+for row in data:
+	sum_emojixpress += row[1]
+print(sum_emojixpress)
+
+mean_emojixpress = sum_emojixpress / len(data)
+print('{:.2f}'.format(mean_emojixpress))
+
+sum_instagram = 0
+for row in data:
+	sum_instagram += row[2]
+mean_instagram = sum_instagram / len(data)
+
+sum_twitter = 0
+for row in data:
+	sum_twitter += row[3]
+mean_twitter = sum_twitter / len(data)
+
+print('---Средние значения---')
+print()
+print('Emojixpress, млн | Instagram, млн | Твиттер, млн')
+print('------------------------------------------------')
+print('{: ^16.2f} | {: ^14.2f} | {: ^12.2f}'.format(mean_emojixpress, mean_instagram, mean_twitter))
+
 
 #text layout tips
 print('|{: >15}|'.format('HEART'))
