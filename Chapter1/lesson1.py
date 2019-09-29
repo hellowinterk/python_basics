@@ -51,11 +51,14 @@ if __name__ == '__main__':
     chinese_speakers_part = chinese_speakers / total_speakers
     print('--- Китайский язык ---')
     print('Доля говорящих на языке: {:.1%}' .format(chinese_speakers_part))
+    print('Доля сайтов с языком: {:.1%}' .format(chinese_web_part))
     print() 
     english_speakers_part = english_speakers / total_speakers
     print('--- Английский язык ---')
     print('Доля говорящих на языке: {:.1%}' .format(english_speakers_part))
+    print('Доля сайтов с языком: {:.1%}' .format(english_web_part))
     print()
     russian_speakers_part = russian_speakers / total_speakers
     print('--- Русский язык ---')
     print('Доля говорящих на языке: {:.1%}' .format(russian_speakers_part))
+    print('Доля сайтов с языком: {:.1%}' .format(russian_web_part))
