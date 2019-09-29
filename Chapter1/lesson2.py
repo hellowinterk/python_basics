@@ -26,3 +26,17 @@ print('------------')
 for element in twitter:
 	print(element)
 
+#total quantity of hands on the selected emojis
+total_hands = 0
+
+#emoji 'Kiss'
+total_hands += 0
+#emoji 'Thumbs Up'
+total_hands += 1
+#emoji 'ROFL'
+total_hands += 0
+#emoji 'Thinking'
+total_hands += 1
+#emoji 'Shrugging'
+total_hands += 2
+print(total_hands)
