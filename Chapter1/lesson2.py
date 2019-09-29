@@ -8,6 +8,13 @@ grinning_row = ['Ухмыляюсь', 'Grinning', 2.26, 1.02, 87.3]
 print(grinning_row)
 
 emojixpress = [2.26, 19.1, 25.6, 233.0, 15.2, 22.7, 64.6, 87.5, 6.81, 6.0]
+total = 0
+total += emojixpress[0]
+total += emojixpress[1]
+total += emojixpress[2]
+total += emojixpress[3]
+total += emojixpress[4]
+print('{:.2f}'.format(total))
 emojixpress_total = 1720
 
 print('Доля эмодзи:')
