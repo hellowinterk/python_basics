@@ -130,6 +130,16 @@ print()
 print('Emojixpress, млн | Instagram, млн | Твиттер, млн')
 print('------------------------------------------------')
 print('{: ^16.2f} | {: ^14.2f} | {: ^12.2f}'.format(mean_emojixpress, mean_instagram, mean_twitter))
+print()
+
+
+print('Название эмодзи | Соотношение Твиттер/Instagram')
+print('-----------------------------------------------')
+
+for row in data:
+	name = row[0]
+	ratio = row[3]/row[2]
+	print('{: <16} | {: >29.2f}'.format(name, ratio))
 
 
 #text layout tips
