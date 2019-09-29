@@ -48,6 +48,7 @@ if __name__ == '__main__':
     russian_speakers = 264.3
     russian_web_part = 0.061
 
+
     chinese_speakers_part = chinese_speakers / total_speakers
     chinese_web_sites = chinese_web_part * total_web
     chinese_index = 1000 * chinese_web_sites / chinese_speakers
@@ -71,3 +72,5 @@ if __name__ == '__main__':
     print('Доля говорящих на языке: {:.1%}' .format(russian_speakers_part))
     print('Доля сайтов с языком: {:.1%}' .format(russian_web_part))
     print('Индекс проникновения в интернет: {:.2f}' .format(russian_index))
+    print()
+    
